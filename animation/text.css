@@ -1,0 +1,146 @@
+header div:nth-child(1) .nen,img{
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+header div:nth-child(2) ul li img{
+    position: relative;
+    width: 500px;
+    z-index: 999;
+    animation-name: conca;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes conca {
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(240%);
+    }
+    50%{
+        transform: translateY(300px);
+    }
+    75%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translate3d(240%,300px,0px);
+    }
+}
+header div:nth-child(3) ul li:nth-child(1) img{
+    position: relative;
+    width: 500px;
+    z-index: 999;
+    animation-name: conca2;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes conca2 {
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(100%);
+    }
+    50%{
+        transform: translate3d(240%,-100px,0px);
+    }
+    75%{
+        transform: translate3d(0%,-200px,0px);
+    }
+    100%{
+        transform: translate3d(240%,0%,0px);
+    }
+}
+header div:nth-child(3) ul li:nth-child(2) img{
+    top: -100px;
+    position: relative;
+    width: 250px;
+    z-index: 999;
+    animation-name: conca3;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes conca3 {
+    0%{
+        transform: translateX(0%);
+    }
+    25%{
+        transform: translate3d(100%,-450px,0px);
+    }
+    50%{
+        transform: translate3d(250%,70px,0px);
+    }
+    75%{
+        transform: translate3d(400%,-400px,0px);
+    }
+    100%{
+        transform: translate3d(410%,-100px,0px);
+    }
+}
+header div:nth-child(3) ul li:nth-child(3) img{
+    top: -300px;
+    position: relative;
+    width: 250px;
+    z-index: 999;
+    animation-name: conca3;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes conca3 {
+    0%{
+        transform: translateX(0%);
+    }
+    25%{
+        transform: translate3d(300%,-450px,0px);
+    }
+    50%{
+        transform: translate3d(350%,0px,0px);
+    }
+    75%{
+        transform: translate3d(200%,-300px,0px);
+    }
+    100%{
+        transform: translate3d(310%,-100px,0px);
+    }
+}
+header div:nth-child(3) ul li:nth-child(4) img{
+    top: -600px;
+    position: relative;
+    width: 250px;
+    z-index: 999;
+    animation-name: conca4;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes conca4 {
+    0%{
+        transform: translateX(0%);
+    }
+    25%{
+        transform: translate3d(300%,0px,0px);
+    }
+    50%{
+        transform: translate3d(350%,-400px,0px);
+    }
+    75%{
+        transform: translate3d(200%,-300px,0px);
+    }
+    100%{
+        transform: translate3d(100%,-100px,0px);
+    }
+}
+
+    
