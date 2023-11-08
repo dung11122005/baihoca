@@ -19,7 +19,7 @@ a{
     top: 0px;
     position: fixed;
     background-color: antiquewhite;
-    border-radius: 10px;
+    border-radius: 15px;
     z-index: 1010;
     text-align: left;
 } 
@@ -27,7 +27,7 @@ a{
 .menu ul li{
     padding: 20px 40px;
     transition: all 0.4s ease;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .menu ul li a{
     margin: 0 30px;
@@ -75,6 +75,9 @@ nav div .ul{
 }
 .hoconca nav .menu ul li:nth-child(2):hover .thuhai{
     display: block;
+}
+.loa .thuhai ul li audio source{
+    z-index: 1111;
 }
 header div:nth-child(2) ul li img{
     position: relative;
